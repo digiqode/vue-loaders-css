@@ -1,0 +1,30 @@
+{
+  "name": "vue-loaders-css",
+  "version": "0.1.1",
+  "description": "Vue wrapper for Loaders.css, the delightful and performance-focused pure css loading animations",
+  "author": "DigiQode <digiqode@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digiqode/vue-loaders-css.git"
+  },
+  "keywords": [
+    "vue",
+    "css",
+    "loaders",
+    "animation"
+  ],
+  "main": "dist/vue-loaders-css.min.js",
+  "devDependencies": {
+    "loaders.css": "^0.1.2",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.3",
+    "sass-loader": "^6.0.6",
+    "shoelace-css": "^1.0.0-beta7",
+    "vue-cli": "^2.8.2"
+  },
+  "scripts": {
+    "dev": "vue build demo/Demo.vue",
+    "build": "vue build ./src/vue-loaders-css.min.js --prod --lib VueLoadersCss"
+  }
+}
